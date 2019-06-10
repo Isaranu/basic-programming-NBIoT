@@ -1,3 +1,7 @@
+/*
+Recommended use "Arduino MEGA 2560 for stable running
+*/
+
 #include "IoTtweetNBIoT.h"
 
 /* Library for DS18B20 sensor */
