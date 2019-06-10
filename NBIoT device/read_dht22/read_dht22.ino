@@ -18,7 +18,7 @@ String udpData = "HelloWorld";
 
 AIS_NB_BC95 AISnb;
 
-const long interval = 20;  /* set delay loop second */
+const long interval = 5;  /* set delay loop second */
 unsigned long previousMillis = 0;
 
 void setup()
@@ -56,11 +56,6 @@ void loop()
       Serial.println("Temperature, t = " + String(t) + " celcuis");
       Serial.println("Humidity, h = " + String(h) + " % RH");
       Serial.println("------------------------");
-
-      /* Check current RSSI level */
-      signal chkRssi = AISnb.getSignal();
-      String rssi = chkRssi.rssi;
-      Serial.println("Current RSSI level : " + String(rssi) + " dbm.");
 
       previousMillis = currentMillis;
     }
