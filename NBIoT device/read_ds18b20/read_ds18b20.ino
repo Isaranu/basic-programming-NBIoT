@@ -1,3 +1,7 @@
+/*
+Recommended use "Arduino MEGA 2560 for stable running
+*/
+
 #include "AIS_NB_BC95.h"
 
 /* Library for DS18B20 sensor */
@@ -18,7 +22,7 @@ String udpData = "HelloWorld";
 
 AIS_NB_BC95 AISnb;
 
-const long interval = 20;  /* set delay loop second */
+const long interval = 5;  /* set delay loop second */
 unsigned long previousMillis = 0;
 
 void setup(){
