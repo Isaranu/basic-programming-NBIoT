@@ -1,3 +1,7 @@
+/*
+Recommended use "Arduino MEGA 2560 for stable running
+*/
+
 #include "IoTtweetNBIoT.h"
 
 #define relay_1 6   /*Connect relay to pin 6 of Arduino MEGA*/
