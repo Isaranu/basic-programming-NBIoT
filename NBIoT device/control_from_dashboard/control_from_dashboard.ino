@@ -6,8 +6,8 @@ Recommended use "Arduino MEGA 2560 for stable running
 
 #define relay_1 6   /*Connect relay to pin 6 of Arduino MEGA*/
 
-String userid = "007867";       /*IoTtweet account user ID (6 digits, included zero pre-fix)*/
-String key = "twdvml1ge9qe";                   /*IoTtweet registered device key in "MY IOT Garage"*/
+String userid = "your-iottweet-account-id";           /*IoTtweet account user ID (6 digits, included zero pre-fix)*/
+String key = "your-iottweet-device-key";              /*IoTtweet registered device key in "MY IOT Garage"*/
 float data0, data1, data2, data3;                 /*Your sending data variable.*/
 String private_tweet = "Get Control to NB-IoT";              /*Your private tweet meassage to dashboard*/
 String public_tweet = "Hello IoTtweet";           /*Your public tweet message to dashboard*/
