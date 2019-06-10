@@ -1,3 +1,7 @@
+/*
+Recommended use "Arduino MEGA 2560 for stable running
+*/
+
 #include <Ultrasonic.h>
 
 Ultrasonic ultrasonic(11,12); /* (Trig PIN,Echo PIN) */
