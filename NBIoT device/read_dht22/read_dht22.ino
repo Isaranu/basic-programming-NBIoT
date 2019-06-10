@@ -1,3 +1,7 @@
+/*
+Recommended use "Arduino MEGA 2560 for stable running
+*/
+
 #include "AIS_NB_BC95.h"
 #include "DHT.h"
 
